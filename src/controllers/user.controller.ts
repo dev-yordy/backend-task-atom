@@ -11,11 +11,11 @@ export class UserController {
   public register = async (req: Request, res: Response): Promise<void> => {
     try {
       const { email, password } = req.body;
-      const { uid, idToken } = await this.userService.registerUser({
+      const { uid } = await this.userService.registerUser({
         email,
         password,
       });
-      res.status(201).json({ uid, token: idToken });
+      res.status(201).json({ uid });
     } catch (error) {
       console.error(
         "Error en UserController al registrar usuario:",
