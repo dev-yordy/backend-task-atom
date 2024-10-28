@@ -75,3 +75,14 @@
     5. Errores y Mensajes de Confirmación
     Para mejorar la experiencia del usuario, se implementaron mensajes de confirmación y manejo de errores detallado,
     lo que permite informar sobre el estado de cada operación.        
+
+ # archivo .env
+    una vez descargues el proyecto se te recomienda agregar el archivo .env en el directorio 
+    a la misma altura de src y le agregas las siguientes variables de entorno
+    
+
+    SERVICE_ACCOUNT_PROJECT_ID=prueba-atom
+    
+    SERVICE_ACCOUNT_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDReqQITCMKCv38\n50nYjeOW/SiJE/Xkx9VbH9/KGV2jrqmVUa6Bh6/JlM9Ds3i7xA9sxat/y5pT+oGg\n1vcS27wM1xPHFD6imqIryqh/a+28+aBo0SFHBY3JGuqHRaVurYa3RE8g1je545Np\n9pVSSq1Eaw8wrFLrgglsITgh67rnaI95ZhnbH0IU6IXNVFM3rhECyuqj4Ffpo7os\n8nTqG2ZLK7ilNMhgjnDU/yNCpfJVWuDFrUDxPUAGD1AOEQ93M5LLQJe908tVLhN9\nuxMkY6/3wd2vuSer6GLKejwVBmiFwHbwRFdc8f1EUFB2eiJbLr1FL/4TRTp/Ws9s\nYr1koue5AgMBAAECggEASG+GJTBetWxTo44+5Nk7p8xmpe/3CWNojZgaBIJ89MrC\n7VVPaI8I5EXG3fxDdXo4cz5vLUO0W/G1vW5YBXdiMXZ16lM/zW53QXlUhqtFjCEt\nrNEUFsD+5FmgW6JjsD/k456FVi99GZRuNygDPm+ANrZmjEgqbDGNHIzoIiKngLjw\nnmwgbF/opDprCi7LMI/z2Qhh5qeSwtuzom+lgMtHFwbWCfLfFmetdfjtJvqcb1nr\n2tLpOjRa2A1NFHErapnwNcDZWORBJJcLsTrKCpfG+Yn/E+RF6N6RN6icDNJs92Yb\nRZ7MkkF5KoNFkhhSFCKM0AU31hl5Ko4EVWlCEtaouQKBgQD7qgSYLcWmCpBwN5bm\n7nI6h0H+/ZIXI1jg/p2cUU5QU6tG7nBBFLFeW83v7rUKuJ4/DkjhV+Vq8lZG4tFc\n0dB1vh6qrv/pOB/+UmD7XcBDGPN1I+eK+mh02PUTZdL4ikye5thTE2RS4lbiZZjR\nCh5g+Hl37r5NiXXvU7w8RiStHwKBgQDVFpAJ0PPih1arUuOz0opX7b1B9yBZ00Fm\nIu4d7fHkFAmSK8nfDidb7UUjJwdvvB1FPDrHg4AgTofLCplqcReH9t3XWV242W6v\nyr1C4+Ao6y0cXT1WU4IHlXTCgM/2nX/Jt0vGR9AvgApfqKkPNGi161CQXMS/gNl6\ngKZreVp4JwKBgCvkPSTlZsFMumA38cOY9qcqi+ITC3WpnoivH4Hx1DzCOu8GCuHu\n3/ha/pHICh8yj7bjoOZcVBDQ7ycxy93qYfcHD4YpO0zLkxjh+TQd57hME7nsZyeg\nALPQWv3lFmRuimp0TGpAyZCDFTArE/nxT9cNvvGh2+LeBImXCw9gFGl1AoGBAMNL\n342vnabThYKWAK2R3EuET/4CYfsRnJHgl76EkzsHhlIaofU2QqqFBuWV4sHsdiM7\ndV/gTPDPKLPVrhAZQIjToDS76iL93O1u8hE5SvwVtw2VAx94f+c1eoK9jlynszQM\nM32x2cN/JYLQ0MlnrkR1PCxjactea3RULrK30UvnAoGAQ4KjF2v7uAWkd0E00JrX\nVJwocqpPvc2yUy9vNii5tb7LwdNRBiwvOy55QIpa7a5AIocFgCi0+L66eC4as7GF\nNcfiffSo3Mo18OD4JpnDMGZeSZBOpHO8GGwGhRt4LkaV9D9aKYWgaGzEoM1Klma9\n+97c7qoxlG9+xvvJlmbFYCA=\n-----END PRIVATE KEY-----\n"
+    
+    SERVICE_ACCOUNT_CLIENT_EMAIL=firebase-adminsdk-8t6a2@prueba-atom.iam.gserviceaccount.com
