@@ -45,7 +45,7 @@
 # Endpoints de la API
  # Autenticación
         POST /api/users/register:   Registra un nuevo usuario.
-        POST /api/users/find-user-email/:email     Inicia sesión y genera un token de autenticación.
+        POST /api/users/find-user-email/:email     Busca usuario por correo.
 
  # Tareas
         GET /api/task/getAll?page=1&limit=5: Obtiene todas las tareas del usuario autenticado, paginadas.
